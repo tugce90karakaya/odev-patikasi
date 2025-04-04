@@ -10,7 +10,7 @@ dizi.AddRange(kelime.Split(" "));
 foreach (string item in dizi)
 {
     for(int i = 0; i < item.Length; i++){
-        if(item[i] == 'a' || item[i] == 'a'|| item[i] == 'e' || item[i] == 'i' ||item[i] == 'o'||item[i] == 'u'){
+        if(item[i] == 'a'|| item[i] == 'e' || item[i] == 'i' ||item[i] == 'o'||item[i] == 'u'){
             sesliHarf.Add(item[i]);
         }
     }
